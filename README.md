@@ -4,6 +4,15 @@
 
 Please give credits, if you skid this I will find you.
 
+- [ ] Challenges
+- [ ] Lobby
+- [ ] Battle Pass
+- [ ] News for Chapter 2+
+- [ ] Arena
+- [X] Anti-Exploit
+- [X] Auto Rotate
+- [ ] 1:1 experience
+
 And please leave my credits in Emergancy Notices or at least in the news tab.
 
 Credits:
