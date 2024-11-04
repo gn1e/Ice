@@ -1,0 +1,125 @@
+{
+    "_title": "Fortnite Game",
+    "_activeDate": "2024-10-12T08:19:38.427798Z",
+    "lastModified": "2024-10-12T08:19:38.427798Z",
+    "_locale": "en-US",
+    "tournamentinformation": {
+    "tournament_info": {
+        "tournaments": [
+            
+        ],
+        "_type": "Tournaments Info"
+    },
+    "_title": "tournamentinformation",
+    "_noIndex": false,
+    "_activeDate": "2024-10-12T08:19:38.427798Z",
+    "lastModified": "2024-10-12T08:19:38.427798Z",
+    "_locale": "en-US"
+},
+    "emergencynotice": {
+        "news": {
+            "_type": "Battle Royale News",
+            "messages": [
+                {
+                  "hidden": false,
+                  "_type": "CommonUI Simple Message Base",
+                  "title": "Ice",
+                  "body": "Welcome to Ice!\nDeveloped by nade!",
+                  "spotlight": true
+                }
+              ]
+            },
+            "_title": "emergencynotice",
+            "_noIndex": false,
+            "alwaysShow": true,
+            "_activeDate": "2024-10-12T08:19:38.427798Z",
+            "lastModified": "2024-10-12T08:19:38.427798Z",
+            "_locale": "en-US"
+          },
+          "emergencynoticev2": {
+            "jcr:isCheckedOut": true,
+            "_title": "emergencynoticev2",
+            "_noIndex": false,
+            "jcr:baseVersion": "a7ca237317f1e771e921e2-7f15-4485-b2e2-553b809fa363",
+            "emergencynotices": {
+              "_type": "Emergency Notices",
+              "emergencynotices": [
+                {
+                  "gamemodes": [],
+                  "hidden": false,
+                  "_type": "CommonUI Emergency Notice Base",
+                  "title": "Ice",
+                  "body": "Welcome to Ice!\nDeveloped by nade!"
+                }
+              ]
+            },
+            "_activeDate": "2024-10-12T08:19:38.427798Z",
+            "lastModified": "2024-10-12T08:19:38.427798Z",
+            "_locale": "en-US"
+          },
+          "battleroyalenews": {
+            "news": {
+              "_type": "Battle Royale News",
+              "messages": [
+                {
+                  "image": "https://gn1e.co/bannerv2.png",
+                  "hidden": false,
+                  "_type": "CommonUI Simple Message Base",
+                  "adspace": "ICE!",
+                  "title": "Welcome to the Ice backend!",
+                  "body": "Developed by nade!\n.gg/junglefn",
+                  "spotlight": false
+                },
+                {
+                  "image": "https://gn1e.co/reporting.jpg",
+                  "hidden": false,
+                  "_type": "CommonUI Simple Message Base",
+                  "adspace": "REPORTING!",
+                  "title": "In-Game Reporting!",
+                  "body": "Report players with the In-Game Reporting system and stop cheaters! Every report is closely investigated to make sure no one get false banned!",
+                  "spotlight": false
+                }
+              ]
+            },
+            "_title": "battleroyalenews",
+            "header": "",
+            "style": "Normal",
+            "_noIndex": false,
+            "alwaysShow": false,
+            "_activeDate": "2024-10-12T08:19:38.427798Z",
+            "lastModified": "2024-10-12T08:19:38.427798Z",
+            "_locale": "en-US"
+          },
+          "playlistinformation": {
+            "frontend_matchmaking_header_style": "PLAY ICE",
+            "_title": "playlistinformation",
+            "frontend_matchmaking_header_text": "PLAY ice",
+            "playlist_info": {
+              "_type": "Playlist Information",
+              "playlists": [
+          {
+            "image": "https://cdn2.unrealengine.com/Fortnite%2Fblog%2Fbattle-royale-updates-duos-supply-drops-weapon-accuracy%2FDuos_Screenshot-1920x1080-765a0c930c02f94da6fbe6c4ab980cec907480a3.png",
+            "playlist_name": "Playlist_DefaultDuo",
+            "show_ad_violator": true,
+            "violator": "PLAY ICE",
+            "hidden": false,
+            "_type": "FortPlaylistInfo",
+            "display_name": "Ice - Duos"
+          },
+          {
+            "image": "https://static.wikia.nocookie.net/fortnite/images/5/51/Solo_(C4SOG)_-_Gamemode_-_Fortnite.jpg",
+            "playlist_name": "Playlist_DefaultSolo",
+            "show_ad_violator": true,
+            "violator": "PLAY ICE",
+            "hidden": false,
+            "_type": "FortPlaylistInfo",
+            "display_name": "Ice - Solos"
+          }
+        ]
+    },
+    "_noIndex": false,
+    "_activeDate": "2024-9-01T22:32:47.734Z",
+    "lastModified": "2024-9-01T17:33:35.346Z",
+    "_locale": "en-US"
+  }
+}
