@@ -16,7 +16,7 @@ fs.readdirSync(path.join(__dirname, "routes")).forEach((file) => {
 });
 
 // im on mobile please tell me it this complains abt sm
-import("./utils/autorotate.js");
+require("./utils/autorotate.js");
 
 app.listen(PORT, () => {
   log.backend(`Ice is running on port ${PORT}!`);
