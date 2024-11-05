@@ -1,6 +1,7 @@
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
+const log = require('./logger.js');
 require("dotenv").config();
 
 const webhook = process.env.SHOP_WEBHOOK; 
@@ -21,7 +22,7 @@ async function getcosmetics() {
             return chapter === '1' && season && parseInt(season, 10) <= season;
         });
     } catch (error) {
-        console.error('Error fetching cosmetics:', error.message || error);
+        log.error('Error fetching cosmetics:', error.message || error);
         return [];
     }
 }
@@ -140,7 +141,7 @@ function udpatecatalog(dailyItems, featuredItems) {
     });
 
     fs.writeFileSync(catalogpath, JSON.stringify(catalogConfig, null, 2), 'utf-8');
-    console.log("Item Shop updated!");
+    log.shop("Item Shop updated!");
 }
 
 async function senddcmsg(itemShop) {
@@ -185,9 +186,9 @@ async function senddcmsg(itemShop) {
     
     try {
         await axios.post(webhook, { embeds: [embed] });
-        console.log("Item shop sent to Discord!");
+        log.shop("Item shop sent to Discord!");
     } catch (error) {
-        console.error("Error sending item shop to Discord:", error.message || error);
+        log.error("Error sending item shop to Discord:", error.message || error);
     }
 }
 
@@ -199,7 +200,7 @@ async function rotateshop() {
     try {
         const cosmetics = await getcosmetics();
         if (cosmetics.length === 0) {
-            console.error('No cosmetics found!');
+            log.error('No cosmetics found!');
             return;
         }
 
@@ -223,7 +224,7 @@ async function rotateshop() {
         udpatecatalog(dailyItems, featuredItems);
         await senddcmsg({ daily: dailyItems, featured: featuredItems });
     } catch (error) {
-        console.error('Error in rotateshop:', error.message || error);
+        log.error('Error in rotateshop:', error.message || error);
     }
 }
 
@@ -246,7 +247,7 @@ function udpatecatalog(dailyItems, featuredItems) {
     });
 
     fs.writeFileSync(catalogpath, JSON.stringify(catalogConfig, null, 2), 'utf-8');
-    console.log("Item Shop updated!");
+    log.shop("Item Shop updated!");
 }
 
 function ighsdohgsidghiosdh() {
