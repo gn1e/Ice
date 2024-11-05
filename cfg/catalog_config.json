@@ -1,0 +1,51 @@
+{
+  "//": "BR Item Shop Config",
+  "daily1": {
+    "itemGrants": [
+      "AthenaDance:EID_Boomer_N2RQT"
+    ],
+    "price": 400
+  },
+  "daily2": {
+    "itemGrants": [
+      "AthenaDance:EID_Camouflage"
+    ],
+    "price": 550
+  },
+  "daily3": {
+    "itemGrants": [
+      "AthenaDance:EID_IndigoApple"
+    ],
+    "price": 1000
+  },
+  "daily4": {
+    "itemGrants": [
+      "AthenaDance:EID_mesmerize"
+    ],
+    "price": 900
+  },
+  "daily5": {
+    "itemGrants": [
+      "AthenaDance:EID_Nimble"
+    ],
+    "price": 600
+  },
+  "daily6": {
+    "itemGrants": [
+      "AthenaDance:EID_SandwichBop"
+    ],
+    "price": 200
+  },
+  "featured1": {
+    "itemGrants": [
+      "AthenaDance:EID_GasStation_104FQ"
+    ],
+    "price": 200
+  },
+  "featured2": {
+    "itemGrants": [
+      "AthenaDance:EID_Bewilder"
+    ],
+    "price": 200
+  }
+}
