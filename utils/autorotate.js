@@ -162,7 +162,7 @@ async function senddcmsg(itemShop) {
     }
 
     const embed = {
-        title: "Jungle Item Shop",
+        title: "Ice Item Shop",
         description: `Item shop rotates every day at <t:${timestamp}:t>!`,
         fields: [
             {
@@ -181,7 +181,7 @@ async function senddcmsg(itemShop) {
                     .join('\n') || "No daily items today."
             }
         ],
-        color: 0xFFD700,
+        color: 0x00D7FF,
     };
     
     try {
