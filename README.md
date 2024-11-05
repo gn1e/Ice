@@ -16,7 +16,7 @@ Please give credits, if you skid this I will find you.
 - [X] IP Bans
 - [ ] Anti-skid
 
-And please leave my credits in Emergancy Notices or at least in the news tab.
+And please leave my credits in Emergency Notices or at least in the news tab.
 
 Credits:
 
