@@ -46,11 +46,20 @@ function warning() {
     console.log(`\x1b[36m[WARNING]\x1b[0m ${msg}`);
 }
 
+function discord() {
+    let msg = "";
+    for (let i in warning.arguments) {
+        msg += `${i == "0" ? "" : " "}${warning.arguments[i]}`;
+    }
+    console.log(`\x1b[36m[BOT]\x1b[0m ${msg}`);
+}
+
 module.exports = {
     backend,
     route,
     exploit,
     shop,
     error,
-    warning
+    warning,
+    discord
 }
