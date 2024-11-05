@@ -111,11 +111,11 @@ function properpricegen(item) {
     const type = item.type.value.toLowerCase();
 
     if (!properrarity[rarity]) {
-        console.warn(`Warning: Unknown rarity "${rarity}" for item "${item.name}". Defaulting to 200 V-Bucks.`);
+        log.warning(`Warning: Unknown rarity "${rarity}" for item "${item.name}". Defaulting to 200 V-Bucks.`);
         return 200;
     }
     if (!properrarity[rarity][type]) {
-        console.warn(`Warning: Unknown type "${type}" for rarity "${rarity}" on item "${item.name}". Defaulting to 200 V-Bucks.`);
+        log.warning(`Warning: Unknown type "${type}" for rarity "${rarity}" on item "${item.name}". Defaulting to 200 V-Bucks.`);
         return 200;
     }
 
@@ -253,16 +253,15 @@ function udpatecatalog(dailyItems, featuredItems) {
 function ighsdohgsidghiosdh() {
     const now = new Date();
     const nextRotation = new Date(now);
-    nextRotation.setUTCHours(6, 0, 0, 0);
+    nextRotation.setUTCHours(process.env.ROTATE_HOUR, 0, 0, 0);
 
-    if (now.getUTCHours() >= 6) {
+    if (now.getUTCHours() >= process.env.ROTATE_HOUR) {
         nextRotation.setUTCDate(now.getUTCDate() + 1);
     }
 
     return nextRotation.getTime() - now.getTime();
 }
 
-rotateshop();
 
 setTimeout(function scheduleNextRotation() {
     rotateshop();

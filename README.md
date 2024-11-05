@@ -13,7 +13,7 @@ Please give credits, if you skid this I will find you.
 - [X] Auto Rotate
 - [ ] 1:1 experience
 - [X] Good logging system
-- [ ] IP Bans
+- [X] IP Bans
 - [ ] Anti-skid
 
 And please leave my credits in Emergancy Notices or at least in the news tab.

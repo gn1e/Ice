@@ -2,50 +2,50 @@
   "//": "BR Item Shop Config",
   "daily1": {
     "itemGrants": [
-      "AthenaDance:EID_Boomer_N2RQT"
+      "AthenaLoadingscreen:LSID_053_SupplyLlama"
     ],
-    "price": 400
+    "price": 200
   },
   "daily2": {
     "itemGrants": [
-      "AthenaDance:EID_Camouflage"
+      "AthenaBackpack:BID_249_StreetOpsStealth"
     ],
-    "price": 550
+    "price": 400
   },
   "daily3": {
     "itemGrants": [
-      "AthenaDance:EID_IndigoApple"
-    ],
-    "price": 1000
-  },
-  "daily4": {
-    "itemGrants": [
-      "AthenaDance:EID_mesmerize"
+      "AthenaBackpack:BID_065_CarbideBlack"
     ],
     "price": 900
   },
+  "daily4": {
+    "itemGrants": [
+      "AthenaBackpack:BID_151_SushiChefFemale"
+    ],
+    "price": 400
+  },
   "daily5": {
     "itemGrants": [
-      "AthenaDance:EID_Nimble"
+      "AthenaDance:EID_HandSignals"
     ],
-    "price": 600
+    "price": 500
   },
   "daily6": {
     "itemGrants": [
-      "AthenaDance:EID_SandwichBop"
+      "AthenaBackpack:BID_030_TacticalRogue"
     ],
-    "price": 200
+    "price": 700
   },
   "featured1": {
     "itemGrants": [
-      "AthenaDance:EID_GasStation_104FQ"
+      "AthenaCharacter:CID_452_Athena_Commando_F_CyberFu"
     ],
-    "price": 200
+    "price": 1200
   },
   "featured2": {
     "itemGrants": [
-      "AthenaDance:EID_Bewilder"
+      "AthenaCharacter:CID_394_Athena_Commando_M_MoonlightAssassin"
     ],
-    "price": 200
+    "price": 1500
   }
 }

@@ -38,10 +38,19 @@ function error() {
     console.log(`\x1b[31m[ERROR]\x1b[0m ${msg}`);
 }
 
+function warning() {
+    let msg = "";
+    for (let i in warning.arguments) {
+        msg += `${i == "0" ? "" : " "}${warning.arguments[i]}`;
+    }
+    console.log(`\x1b[36m[WARNING]\x1b[0m ${msg}`);
+}
+
 module.exports = {
     backend,
     route,
     exploit,
     shop,
-    error
+    error,
+    warning
 }
