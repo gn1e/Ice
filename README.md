@@ -7,7 +7,7 @@ Please give credits, if you skid this I will find you.
 - [ ] Challenges
 - [ ] Lobby
 - [ ] Battle Pass
-- [ ] News for Chapter 2+
+- [X] News for Chapter 2+
 - [ ] Arena
 - [X] Anti-Exploit
 - [X] Auto Rotate
