@@ -6,7 +6,7 @@ require("dotenv").config();
 
 const webhook = process.env.SHOP_WEBHOOK; 
 const fnapi = "https://fortnite-api.com/v2/cosmetics/br";
-const catalogpath = path.join(__dirname, "..", 'Config', 'catalog_config.json');
+const catalogpath = path.join(__dirname, "..", 'cfg', 'catalog_config.json');
 
 const season = process.env.SEASON; 
 const dailycount = 6;
