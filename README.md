@@ -12,6 +12,9 @@ Please give credits, if you skid this I will find you.
 - [X] Anti-Exploit
 - [X] Auto Rotate
 - [ ] 1:1 experience
+- [X] Good logging system
+- [ ] IP Bans
+- [ ] Anti-skid
 
 And please leave my credits in Emergancy Notices or at least in the news tab.
 
