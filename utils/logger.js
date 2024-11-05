@@ -22,8 +22,17 @@ function exploit() {
     console.log(`\x1b[34m[EXPLOIT]\x1b[0m ${msg}`);
 }
 
+function shop() {
+    let msg = "";
+    for (let i in shop.arguments) {
+        msg += `${i == "0" ? "" : " "}${shop.arguments[i]}`;
+    }
+    console.log(`\x1b[35m[SHOP]\x1b[0m ${msg}`);
+}
+
 module.exports = {
     backend,
     route,
-    exploit
+    exploit,
+    shop
 }
