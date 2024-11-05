@@ -10,7 +10,7 @@ const event1 = {
     "events": [
         {
             "gameId": "Fortnite",
-            "eventId": "EraTournament",
+            "eventId": "IceTournament",
             "regions": [
                 "EU"
             ],
@@ -26,7 +26,7 @@ const event1 = {
                 "Windows"
             ],
             "platformMappings": {},
-            "displayDataId": "EraTournament",
+            "displayDataId": "IceTournament",
             "eventGroup": "",
             "announcementTime": "2019-01-29T08:00:00.000Z",
             "appId": null,
@@ -36,8 +36,8 @@ const event1 = {
             },
             "eventWindows": [
                 {
-                    "eventWindowId": "EraTournament_Event1",
-                    "eventTemplateId": "EventTemplate_EraTournament",
+                    "eventWindowId": "IceTournament_Event1",
+                    "eventTemplateId": "EventTemplate_IceTournament",
                     "countdownBeginTime": "2021-01-01T01:00:00.000Z",
                     "beginTime": "2021-01-01T01:00:00.000Z",
                     "endTime": "9999-01-01T01:00:00.000Z",
@@ -70,7 +70,7 @@ const event1 = {
     "templates": [
         {
             "gameId": "Fortnite",
-            "eventTemplateId": "EventTemplate_EraTournament",
+            "eventTemplateId": "EventTemplate_IceTournament",
             "playlistId": "Playlist_Duos",
             "matchCap": 0,
             "liveSessionAttributes": [],
