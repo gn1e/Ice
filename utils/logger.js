@@ -30,9 +30,18 @@ function shop() {
     console.log(`\x1b[35m[SHOP]\x1b[0m ${msg}`);
 }
 
+function error() {
+    let msg = "";
+    for (let i in error.arguments) {
+        msg += `${i == "0" ? "" : " "}${error.arguments[i]}`;
+    }
+    console.log(`\x1b[31m[ERROR]\x1b[0m ${msg}`);
+}
+
 module.exports = {
     backend,
     route,
     exploit,
-    shop
+    shop,
+    error
 }
