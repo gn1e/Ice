@@ -1,4 +1,4 @@
-# Ice | A OG Fortnite backend.
+# Ice | An OG Fortnite backend.
 
 .gg/junglefn (this backend isnt used on jungle)
 
