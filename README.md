@@ -17,7 +17,7 @@ Please give credits, if you skid this I will find you.
 - [ ] 1:1 experience
 - [X] Good logging system
 - [X] IP Bans
-- [ ] Anti-skid
+- [X] Anti-skid 🤫
 - [X] Reporting system
 - [ ] Advanced Reporting System
 
