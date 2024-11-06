@@ -22,6 +22,14 @@ function exploit() {
     console.log(`\x1b[34m[EXPLOIT]\x1b[0m ${msg}`);
 }
 
+function ice() {
+    let msg = "";
+    for (let i in exploit.arguments) {
+        msg += `${i == "0" ? "" : " "}${exploit.arguments[i]}`;
+    }
+    console.log(`\x1b[34m[ICE]\x1b[0m ${msg}`);
+}
+
 function shop() {
     let msg = "";
     for (let i in shop.arguments) {
