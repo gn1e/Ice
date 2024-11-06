@@ -9,14 +9,11 @@
     "url": "git+https://github.com/gn1e/Ice.git"
   },
   "keywords": [
-    "fortnite",
-    "backend",
-    "node",
-    "server",
-    "v2"
+    "ogfn",
+    "coolbackend"
   ],
   "author": "nade",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gn1e/Ice/issues"
   },
