@@ -1,18 +1,16 @@
 const express = require("express");
-const dotenv = require("dotenv");
 const app = express.Router();
 const { verifyToken } = require("../token/verifytoken.js");
 const User = require("../model/user.js");
 const Profiles = require("../model/profiles.js");
 const { Client, Intents, TextChannel } = require('discord.js');
-const env = require('../.env');
 const log = require("../utils/logger.js");
+require("dotenv").config();
+
 
 app.post("/fortnite/api/game/v2/toxicity/account/:unsafeReporter/report/:reportedPlayer", verifyToken, async (req, res) => {
     if (process.env.report === "true") {
         try {
-            log.backend(`Endpoint /fortnite/api/game/v2/toxicity/account/${req.params.unsafeReporter}/report/${req.params.reportedPlayer} accessed by reporter ${req.user.accountId}`);
-
             const reporter = req.user.accountId;
             const reportedPlayer = req.params.reportedPlayer;
 
