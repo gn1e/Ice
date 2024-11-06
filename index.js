@@ -15,8 +15,6 @@ fs.readdirSync(path.join(__dirname, "routes")).forEach((file) => {
   log.route(`Loaded ${file}!`)
 });
 
-log.ice(`Welcome to Ice Backend`);
-
 app.listen(PORT, () => {
   log.backend(`Ice is running on port ${PORT}!`);
   require('./utils/autorotate.js');
