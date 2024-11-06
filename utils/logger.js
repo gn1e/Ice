@@ -6,6 +6,14 @@ function backend() {
     console.log(`\x1b[32m[BACKEND]\x1b[0m ${msg}`);
 }
 
+function api() {
+    let msg = "";
+    for (let i in backend.arguments) {
+        msg += `${i == "0" ? "" : " "}${backend.arguments[i]}`;
+    }
+    console.log(`\x1b[32m[API]\x1b[0m ${msg}`);
+}
+
 function route() {
     let msg = "";
     for (let i in route.arguments) {
