@@ -3,5 +3,22 @@
     "axios": "^1.7.7",
     "dotenv": "^16.4.5",
     "express": "^4.21.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gn1e/Ice.git"
+  },
+  "keywords": [
+    "fortnite",
+    "backend",
+    "node",
+    "server",
+    "v2"
+  ],
+  "author": "nade",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/gn1e/Ice/issues"
+  },
+  "homepage": "https://github.com/gn1e/Ice#readme"
 }
