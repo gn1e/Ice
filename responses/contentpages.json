@@ -113,7 +113,7 @@
               ],
               "messages": [
                 {
-                  "image": "https://gn1e.co/bannerv2.png",
+                  "image": "https://gn1e.co/IceBanner.png",
                   "hidden": false,
                   "_type": "CommonUI Simple Message Base",
                   "adspace": "ICE!",
@@ -213,7 +213,7 @@
               "_type": "Playlist Information",
               "playlists": [
           {
-            "image": "https://cdn2.unrealengine.com/Fortnite%2Fblog%2Fbattle-royale-updates-duos-supply-drops-weapon-accuracy%2FDuos_Screenshot-1920x1080-765a0c930c02f94da6fbe6c4ab980cec907480a3.png",
+            "image": "https://gn1e.co/IceBanner.png",
             "playlist_name": "Playlist_DefaultDuo",
             "show_ad_violator": true,
             "violator": "PLAY ICE",
@@ -222,7 +222,7 @@
             "display_name": "Ice - Duos"
           },
           {
-            "image": "https://static.wikia.nocookie.net/fortnite/images/5/51/Solo_(C4SOG)_-_Gamemode_-_Fortnite.jpg",
+            "image": "https://gn1e.co/IceBanner.png",
             "playlist_name": "Playlist_DefaultSolo",
             "show_ad_violator": true,
             "violator": "PLAY ICE",
