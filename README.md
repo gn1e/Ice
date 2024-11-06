@@ -18,6 +18,8 @@ Please give credits, if you skid this I will find you.
 - [X] Good logging system
 - [X] IP Bans
 - [ ] Anti-skid
+- [X] Reporting system
+- [ ] Advanced Reporting System
 
 And please leave my credits in Emergency Notices or at least in the news tab.
 
