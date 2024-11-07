@@ -77,5 +77,7 @@ module.exports = {
     shop,
     error,
     warning,
-    discord
+    discord,
+    ice,
+    api
 }
