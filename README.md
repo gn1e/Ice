@@ -28,6 +28,6 @@ Credits:
 
 [nade](https://github.com/gn1e) - For being the main developer on this backend.
 
-[teko](https://github.com/itzteko) - For also developing the backend.
+[pixelstrap](https://github.com/pxlstrap) - For also developing the backend.
 
 [FortniteEndpointsDocumentation](https://github.com/LeleDerGrasshalmi/FortniteEndpointsDocumentation) - For documenting alot of endpoints and their responses.
