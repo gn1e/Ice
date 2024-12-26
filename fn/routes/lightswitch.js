@@ -43,16 +43,12 @@ app.use((req, res, next) => {
   if (banip.includes(userip)) {
     const bannedStatus1 = {
       ...status1,
-      status: "DOWN",
-      message: "Fortnite is offline",
       allowedActions: [],
       banned: true
     };
 
     const bannedStatus2 = status2.map(status => ({
       ...status,
-      status: "DOWN",
-      message: "fortnite is down.",
       allowedActions: [],
       banned: true
     }));
