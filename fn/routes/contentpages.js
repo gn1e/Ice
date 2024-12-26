@@ -1,6 +1,6 @@
 const web = require("express");
 const app = web.Router();
-const contentpages = require("../responses/contentpages.json");
+const contentpages = require("../../static/contentpages.json");
 
 const contentpagesxd = {
   ...contentpages,
