@@ -1,22 +1,16 @@
-const { Pool } = require('pg');
+const mongoose = require("mongoose");
 
-const pool = new Pool();
+const ProfilesSchema = new mongoose.Schema(
+    {
+        created: { type: Date, required: true },
+        accountId: { type: String, required: true, unique: true },
+        profiles: { type: Object, required: true }
+    },
+    {
+        collection: "profiles"
+    }
+)
 
-const ProfilesSchema = {
-    created: { type: 'timestamp', required: true },
-    accountId: { type: 'varchar', required: true, unique: true },
-    profiles: { type: 'jsonb', required: true },
-};
+const model = mongoose.model('ProfilesSchema', ProfilesSchema);
 
-const createTableQuery = `
-    CREATE TABLE IF NOT EXISTS profiles (
-        id SERIAL PRIMARY KEY,
-        created TIMESTAMP NOT NULL,
-        account_id VARCHAR(255) UNIQUE NOT NULL,
-        profiles JSONB NOT NULL
-    );
-`;
-
-pool.query(createTableQuery).catch(console.error);
-
-module.exports = { ProfilesSchema };
+module.exports = model;
