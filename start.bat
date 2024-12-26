@@ -1,6 +1,6 @@
 @echo off
 :start
-node index.js
+node fn/index.js
 echo .
 echo Backend has crashed, restarting.
 echo .
