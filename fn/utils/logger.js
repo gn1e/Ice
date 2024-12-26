@@ -3,7 +3,7 @@ function backend() {
     for (let i in backend.arguments) {
         msg += `${i == "0" ? "" : " "}${backend.arguments[i]}`;
     }
-    console.log(`\x1b[32m[BACKEND]\x1b[0m ${msg}`);
+    console.log(`\x1b[38;2;0;255;127m[BACKEND]\x1b[0m ${msg}`); 
 }
 
 function api() {
@@ -11,7 +11,7 @@ function api() {
     for (let i in api.arguments) {
         msg += `${i == "0" ? "" : " "}${api.arguments[i]}`;
     }
-    console.log(`\x1b[32m[API]\x1b[0m ${msg}`);
+    console.log(`\x1b[38;2;0;191;255m[API]\x1b[0m ${msg}`); 
 }
 
 function route() {
@@ -19,7 +19,7 @@ function route() {
     for (let i in route.arguments) {
         msg += `${i == "0" ? "" : " "}${route.arguments[i]}`;
     }
-    console.log(`\x1b[33m[ROUTE]\x1b[0m ${msg}`);
+    console.log(`\x1b[38;2;255;165;0m[ROUTE]\x1b[0m ${msg}`); 
 }
 
 function exploit() {
@@ -27,7 +27,7 @@ function exploit() {
     for (let i in exploit.arguments) {
         msg += `${i == "0" ? "" : " "}${exploit.arguments[i]}`;
     }
-    console.log(`\x1b[34m[EXPLOIT]\x1b[0m ${msg}`);
+    console.log(`\x1b[38;2;75;0;130m[EXPLOIT]\x1b[0m ${msg}`); 
 }
 
 function shop() {
@@ -35,7 +35,7 @@ function shop() {
     for (let i in shop.arguments) {
         msg += `${i == "0" ? "" : " "}${shop.arguments[i]}`;
     }
-    console.log(`\x1b[35m[SHOP]\x1b[0m ${msg}`);
+    console.log(`\x1b[38;2;255;105;180m[SHOP]\x1b[0m ${msg}`); 
 }
 
 function error() {
@@ -43,7 +43,7 @@ function error() {
     for (let i in error.arguments) {
         msg += `${i == "0" ? "" : " "}${error.arguments[i]}`;
     }
-    console.log(`\x1b[31m[ERROR]\x1b[0m ${msg}`);
+    console.log(`\x1b[38;2;255;0;0m[ERROR]\x1b[0m ${msg}`); 
 }
 
 function warning() {
@@ -51,7 +51,7 @@ function warning() {
     for (let i in warning.arguments) {
         msg += `${i == "0" ? "" : " "}${warning.arguments[i]}`;
     }
-    console.log(`\x1b[36m[WARNING]\x1b[0m ${msg}`);
+    console.log(`\x1b[38;2;255;215;0m[WARNING]\x1b[0m ${msg}`); 
 }
 
 function discord() {
@@ -59,7 +59,7 @@ function discord() {
     for (let i in discord.arguments) {
         msg += `${i == "0" ? "" : " "}${discord.arguments[i]}`;
     }
-    console.log(`\x1b[36m[BOT]\x1b[0m ${msg}`);
+    console.log(`\x1b[38;2;114;137;218m[BOT]\x1b[0m ${msg}`); 
 }
 
 function mongo() {
@@ -67,17 +67,17 @@ function mongo() {
     for (let i in mongo.arguments) {
         msg += `${i == "0" ? "" : " "}${mongo.arguments[i]}`;
     }
-    console.log(`\x1b[37m[MONGO]\x1b[0m ${msg}`);
+    console.log(`\x1b[38;2;34;139;34m[MONGO]\x1b[0m ${msg}`);
 }
 
 module.exports = {
     backend,
+    api,
     route,
     exploit,
     shop,
     error,
     warning,
     discord,
-    api,
-    mongo
-}
+    mongo,
+};
