@@ -15,12 +15,11 @@ fs.readdirSync(path.join(__dirname, "routes")).forEach((file) => {
   log.route(`Loaded ${file}!`)
 });
 
+mongoose.connect(process.env.DATABASE_CONNECTION_URI, () => {
+  log.mongo("Running");
+});
+
 app.listen(PORT, () => {
   log.backend(`Ice is running on port ${PORT}!`);
   require('./utils/autorotate.js');
 });
-
-if (process.env.UseSite === true) {
-  log.website(`Website Is Running on port ${WebsitePort}`);
-  require('./Web/site.js');
-}
