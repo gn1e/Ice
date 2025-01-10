@@ -1,9 +1,4 @@
-# Ice | An OG Fortnite backend.
-
-![banner](https://raw.githubusercontent.com/gn1e/Ice/refs/heads/main/public/IceBanner.jpg)
-
-
-.gg/junglefn (this backend isnt used on jungle)
+# i dont plan on continuing this, you will NOT have a good experience with this backend.
 
 Please give credits, if you skid this I will find you.
 
