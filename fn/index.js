@@ -2,7 +2,7 @@ const web = require("express");
 const fs = require("fs");
 const path = require("path");
 const log = require("./utils/logger.js");
-const { connectToDB } = require("./utils/database.js");
+const { connectodb } = require("./utils/database.js");
 require("dotenv").config(); 
 
 const app = web();
@@ -14,7 +14,7 @@ fs.readdirSync(path.join(__dirname, "routes")).forEach((file) => {
   app.use(route);
   log.route(`Loaded ${file}!`)
 });
-connectToDB();
+connectodb();
 
 app.listen(process.env.PORT, () => {
   log.backend(`Ice is running on port ${process.env.PORT}!`);
