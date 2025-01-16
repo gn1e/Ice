@@ -18,5 +18,4 @@ connectodb();
 
 app.listen(process.env.PORT, () => {
   log.backend(`Ice is running on port ${process.env.PORT}!`);
-  require('./utils/autorotate.js');
 });
